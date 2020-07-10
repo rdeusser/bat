@@ -1,3 +1,3 @@
-module github.com/astaxie/bat
+module github.com/rdeusser/bat
 
 go 1.12

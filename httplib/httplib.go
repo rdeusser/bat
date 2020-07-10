@@ -1,4 +1,4 @@
-// Copyright 2014 beego Author. All Rights Reserved.
+// Copyright 2014 bat Author. All Rights Reserved.
 // Copyright 2015 bat authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,10 +15,10 @@
 
 // Usage:
 //
-// import "github.com/astaxie/beego/httplib"
+// import "github.com/rdeusser/bat/httplib"
 //
-//	b := httplib.Post("http://beego.me/")
-//	b.Param("username","astaxie")
+//	b := httplib.Post("http://bat.me/")
+//	b.Param("username","rdeusser")
 //	b.Param("password","123456")
 //	b.PostFile("uploadfile1", "httplib.pdf")
 //	b.PostFile("uploadfile2", "httplib.txt")
@@ -28,7 +28,7 @@
 //	}
 //	fmt.Println(str)
 //
-//  more docs http://beego.me/docs/module/httplib.md
+//  more docs http://bat.me/docs/module/httplib.md
 package httplib
 
 import (
@@ -52,7 +52,7 @@ import (
 	"time"
 )
 
-var defaultSetting = BeegoHttpSettings{false, "beegoServer", 60 * time.Second, 60 * time.Second, nil, nil, nil, false, true, true}
+var defaultSetting = BeegoHttpSettings{false, "batServer", 60 * time.Second, 60 * time.Second, nil, nil, nil, false, true, true}
 var defaultCookieJar http.CookieJar
 var settingMutex sync.Mutex
 

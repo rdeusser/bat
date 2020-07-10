@@ -387,9 +387,9 @@ ITEM:
 
 Example:
 
-	bat beego.me
+	bat bat.me
 
-more help information please refer to https://github.com/astaxie/bat
+more help information please refer to https://github.com/rdeusser/bat
 `
 
 func usage() {

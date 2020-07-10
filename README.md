@@ -63,7 +63,7 @@ Make sure the `$GOPATH/bin` is added into `$PATH`.
 
 Hello World:
 
-	$ bat beego.me
+	$ bat bat.me
 
 Synopsis:
 
@@ -272,14 +272,14 @@ Note that `@` is used to simulate a file upload form field.
 To set custom headers you can use the Header:Value notation:
 
 	$ bat example.org  User-Agent:Bacon/1.0  'Cookie:valued-visitor=yes;foo=bar'  \
-    X-Foo:Bar  Referer:http://beego.me/
+    X-Foo:Bar  Referer:http://bat.me/
 
 	GET / HTTP/1.1
 	Accept: */*
 	Accept-Encoding: gzip, deflate
 	Cookie: valued-visitor=yes;foo=bar
 	Host: example.org
-	Referer: http://beego.me/
+	Referer: http://bat.me/
 	User-Agent: Bacon/1.0
 	X-Foo: Bar
 	
